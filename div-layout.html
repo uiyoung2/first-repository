@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>div layout</title>
+    <style>
+      #header,
+      #nav,
+      #selection,
+      #footer {
+        text-align: center;
+      }
+
+      #header,
+      #footer {
+        line-height: 100px;
+      }
+      #nav,
+      #selection {
+        line-height: 240px;
+      }
+
+      #header {
+        background-color: hotpink;
+        height: 100px;
+      }
+
+      #nav {
+        background-color: cadetblue;
+        height: 300px;
+        color: white;
+        width: 200px;
+        float: left;
+      }
+
+      #selection {
+        background-color: azure;
+        float: left;
+        padding: 10px;
+      }
+
+      #footer {
+        background-color: darkkhaki;
+        height: 100px;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <h1>this is header</h1>
+    </header>
+    <nav id="nav">this is nav</nav>
+    <div id="selection">selection section</div>
+    <footer id="footer">this is footer</footer>
+  </body>
+</html>
